@@ -1,4 +1,4 @@
-eact Redux reducer+selector
+React Redux reducer+selector
 Front-end
 JavaScript
 ES6
@@ -20,6 +20,7 @@ Normalizing State Shape
 Learning Objectives
 At the end of this project, you should be able to explain to anyone, without the help of Google:
 
+
 The purpose of a reducer and the role it plays within your application
 Why a reducer should stay as pure as possible
 Why mutations should not happen within a reducer
@@ -33,9 +34,13 @@ All your files will be interpreted/compiled on Ubuntu 18.04 LTS using node 12.x.
 A README.md file, at the root of the folder of the project, is mandatory
 Push all of your files, including package.json and .babelrc
 All of your functions must be exported
+
+
 Tasks
 0. Write a basic reducer
 mandatory
+
+
 Reuse the latest dashboard project you worked on in the React course 0x08-React_Redux_action_creator+normalizr
 Create the basic state
 
@@ -55,6 +60,8 @@ LOGIN_FAILURE should set isUserLoggedIn to false
 LOGOUT should set isUserLoggedIn to false
 Write the tests
 
+
+
 In a file named reducers/uiReducer.test.js, define the test suite for our simple reducer:
 
 Write a test verifying the state returned by the uiReducer function equals the initial state when no action is passed
@@ -73,6 +80,8 @@ Repo:
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
 File: task_0/dashboard/src/reducers/uiReducer.js, task_0/dashboard/src/reducers/uiReducer.test.js
+
+
 1. Use Immutable for the UI Reducer
 mandatory
 Now that you have set up a basic reducer, let’s reuse what we learned in the Immutable module and apply it to that reducer:
@@ -94,6 +103,8 @@ Repo:
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
 File: task_1/dashboard/src/reducers/uiReducer.js, task_1/dashboard/src/reducers/uiReducer.test.js
+
+
 2. Create a reducer for Courses
 mandatory
 Create a load action
@@ -367,6 +378,8 @@ Repo:
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
 File: task_3/dashboard/src/actions/notificationActionTypes.js, task_3/dashboard/src/reducers/notificationReducer.js, task_3/dashboard/src/reducers/notificationReducer.test.js
+
+
 4. Normalizr & Immutable
 mandatory
 As you can see, updating a specific item in a collection is rather complicated and error prone. Using Normalizr is a good opportunity to simplify mutation
