@@ -26,6 +26,7 @@ BodySection.propTypes = {
   title: PropTypes.string,
 };
 
+
 const screenSize = {
   small: '@media screen and (max-width: 900px)',
 };
@@ -39,7 +40,7 @@ const styles = StyleSheet.create({
     padding: '32px',
     [screenSize.small]: {
       margin: '240px 0 -240px',
-      padding: '16px',
+      padding: '17px',
     },
   },
   heading: {

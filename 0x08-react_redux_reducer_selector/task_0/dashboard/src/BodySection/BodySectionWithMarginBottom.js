@@ -18,7 +18,7 @@ class BodySectionWithMarginBottom extends Component {
 }
 
 BodySectionWithMarginBottom.defaultProps = {
-  title: '',
+  title: ' ',
 };
 
 BodySectionWithMarginBottom.propTypes = {
